@@ -58,7 +58,7 @@ Download the attached script to the project folder. Find an image you want to us
 
 Run the command below once everything is in place...
 
-```python3 print bitmap_test.py```
+```python3 print_bitmap_test.py```
 
 Your image should print out straight away.
 
