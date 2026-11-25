@@ -3,7 +3,7 @@
 <h2>STEP 1: software installation</h2>
 power on the raspberry pi and open the terminal 
 
-set up a virtual environment and start it up. You kind find out more on virtual enviroments [here](https://github.com/kingston-hackSpace/Virtual-Environments__RaspberryPi).
+1. set up a virtual environment and start it up. You kind find out more on virtual enviroments [here](https://github.com/kingston-hackSpace/Virtual-Environments__RaspberryPi).
 
 ```python3 -m venv PROJECT_NAME```
 
@@ -11,27 +11,27 @@ set up a virtual environment and start it up. You kind find out more on virtual 
 
 Within the virtual environment we can install the libraries and dependencies to allow printing from the raspberry pi.
 
-1. Install the wheel Using
+2. Install the wheel Using
 
 ```pip install wheel```
 
 Details on the wheel and why it's need can be found [here](https://stackoverflow.com/questions/53204916/what-is-the-meaning-of-failed-building-wheel-for-x-in-pip-install)
 
-2. Install the dependencies and upgrade pip
+3. Install the dependencies and upgrade pip
 
 ```sudo apt install gcc libcups2-dev python3-dev```
 
 ```pip install --upgrade pip```
 
-3. Install pycups
+4. Install pycups
 
 ```pip install pycups```
 
-4. install the adafruit thermal printer library
+5. install the adafruit thermal printer library
 
 ```pip3 install adafruit-circuitpython-thermal-printer```
 
-5. Install the printer. The guide can be found [here](https://cdn-learn.adafruit.com/downloads/pdf/networked-thermal-printer-using-cups-and-raspberry-pi.pdf)
+6. Install the printer. The guide can be found [here](https://cdn-learn.adafruit.com/downloads/pdf/networked-thermal-printer-using-cups-and-raspberry-pi.pdf)
 
 <h2>STEP 2: hardware setup</h2>
 
